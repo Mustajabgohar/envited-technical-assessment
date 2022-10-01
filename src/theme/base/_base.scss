@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+	overflow-x: hidden;
+	font-family: $primary-font-family !important;
+	background-color: $primary-bg-color !important;
+}
+
+a,
+button {
+	color: inherit;
+	text-decoration: none !important;
+	&:focus,
+	&:active {
+		color: inherit;
+		outline: none;
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}
+p {
+	margin: 0 !important;
+}
+
+ul {
+	list-style: none;
+	li {
+		display: inline-block;
+	}
+}

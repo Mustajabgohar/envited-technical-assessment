@@ -1,0 +1,26 @@
+.create-event-section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+
+	.event-form label {
+		font-weight: 600;
+		font-size: 18px;
+		color: #240d57;
+	}
+	.event-form input {
+		font-size: 16px;
+	}
+	.event-form .next-btn {
+		font-weight: 500;
+		min-width: 150px;
+		border-radius: 20px;
+		font-size: 18px;
+		color: #FFF;
+		background-color: #331080;
+		&:active, &:hover {
+			background-color: #240d57;
+		}
+	}
+
+}
